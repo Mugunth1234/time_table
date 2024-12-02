@@ -21,24 +21,34 @@ Add your timetable using <td> tag.
 
 ## STEP 6
 Execute the program using runserver command.
-
 # PROGRAM
-```
+```html
 <html>
 <head>
 <title>time table</title>
 </head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('https://i.pinimg.com/736x/42/37/22/4237225ef6046023423fc9cf345f25b2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+</style>
 <body>
     <center>
-        <img src="C:\Users\admin\slottimetable\sec logo.png">
+        <img src="https://saveetha.ac.in/wp-content/uploads/2024/03/sec-logo-01as.png" width='500px'>
     
 
-    <table>'
+    <table background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4s6MpFqgN94yg0vpx_nEp4pOU76WFwLTbwA&s">
         <style>
              table,th,td{border:2px solid black;
             border-collapse:collapse;}
         </style>
-        <caption align="center"><b>SLOT TIME TABLE-AISHWARIYA S(24900840)</b></caption>
+        <caption align="center"><b>SLOT TIME TABLE-M.Mugunthan (24005593)</b></caption>
         <tr>
             <td>day</td>
             <td>8am to 10am</td>
@@ -92,7 +102,7 @@ Execute the program using runserver command.
     </table><br>
 
     
-    <table>
+    <table background="https://images.freeimages.com/images/large-previews/74a/pastel-abstract-background-0410-5697605.jpg?fmt=webp&w=500">
     
         <style>
             table,th,td{border:2px solid black;border-collapse: collapse;}
@@ -126,11 +136,12 @@ Execute the program using runserver command.
         </center
         </table>
         </body>
-        </html>
+        </html>
 ```
-
 # OUTPUT
-![Screenshot 2024-11-28 131753](https://github.com/user-attachments/assets/272a357a-0acb-423f-9869-ab261c2fc92f)
+![Screenshot 2024-12-02 173637](https://github.com/user-attachments/assets/03affb75-06ed-4736-97cc-a562dd62b5d7)
+
+
 
 # RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
